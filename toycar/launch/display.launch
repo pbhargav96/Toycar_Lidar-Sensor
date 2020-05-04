@@ -1,15 +1,11 @@
 <launch>
-  <!-- <arg
-    name="model" />
   <arg
     name="gui"
     default="False" /> -->
   <param
     name="robot_description"
     textfile="$(find toycar)/urdf/toycar.urdf" />
-  <!-- <param
-    name="use_gui"
-    value="$(arg gui)" /> -->
+
 
   <node
     name="joint_state_publisher"

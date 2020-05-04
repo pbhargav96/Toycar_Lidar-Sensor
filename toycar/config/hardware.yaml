@@ -1,0 +1,4 @@
+toycar:
+hardware_interface:
+loop_hz: 10 #hz
+joints: ['', 'rearwheelsjoints', 'FrontLeftWheelJoint', 'FrontRightWheelJoint', 'left_frontaxisjoint', 'right_frontaxisjoint' ]
